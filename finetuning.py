@@ -44,7 +44,7 @@ def get_data():
     return data
 import lamini 
 import lamini
-lamini.api_key = "972de798e28511c732f24ffdaa79686dd8704c65018a6282db8c3097b22194ff"
+lamini.api_key = ""
 
 llm = lamini.Lamini(model_name="meta-llama/Meta-Llama-3.1-8B-Instruct")
 data = get_data()
